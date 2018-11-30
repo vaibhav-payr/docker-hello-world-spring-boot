@@ -28,9 +28,9 @@ $ docker build -t="hello-world-java" .
 
 >Note:if you run this command for first time it will take some time in order to download base image from [DockerHub](https://hub.docker.com/)
 
-##### Run Docker image
+##### Run Docker image with port
 ```
-$ docker run -p 8080:8080 -it --rm hello-world-java
+$ docker run -p 8080:8080 -it --rm hello-world-java 
 ```
 
 ##### Test application
