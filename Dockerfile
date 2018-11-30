@@ -6,7 +6,7 @@ LABEL maintainer="vaibhav@payr.np"
 RUN apk update && apk add maven
 COPY . /
 RUN ls
-
+#Install dependecies
 RUN mvn clean install
 
 #expose port 8080
