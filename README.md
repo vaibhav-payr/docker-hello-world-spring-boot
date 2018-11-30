@@ -11,7 +11,7 @@ Installed: Docker, Java 1.8, Maven 3.x
 $  git clone https://github.com/dstar55/docker-hello-world-spring-boot .
 ```
 
-##### Build project with Maven
+##### Clean and Build project with Maven 
 ```
 $ mvn clean install
 ```
